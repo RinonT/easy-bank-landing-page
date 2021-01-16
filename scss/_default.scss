@@ -1,5 +1,9 @@
 body {
+    font-family: 'Public Sans', sans-serif;
+    font-size: 18px;
     padding: 0;
+    margin: 0;
+    background: hsl(0, 0%, 98%);
 }
 
 ul {
@@ -10,6 +14,30 @@ ul {
 li,
 a {
     text-decoration: none;
+}
+
+.page_heading {
+    margin: 0;
+}
+
+button, a {
+    cursor: pointer;
+}
+.page_section {
+    padding-bottom: 100px;
+}
+
+.page_section {
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.page_container.section_container{
+    text-align: center;
+}
+
+img, svg {
+    max-width: 100%;
 }
 
 
