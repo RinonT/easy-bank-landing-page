@@ -10,3 +10,9 @@
 .section_button.request_button {
     margin-top: 32px; 
 }
+
+@media(min-width: 1114px) {
+    .banking_section {
+        padding-top: 0;
+    }
+}

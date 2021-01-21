@@ -7,6 +7,7 @@ body {
 
 ul {
   padding: 0;
+  margin: 0;
   list-style: none; }
 
 li,
@@ -31,6 +32,12 @@ button, a {
 
 img, svg {
   max-width: 100%; }
+
+@media (min-width: 1114px) {
+  .page_container {
+    max-width: 1114px;
+    margin-left: auto;
+    margin-right: auto; } }
 
 .header {
   background-color: #ffffff;
@@ -107,6 +114,45 @@ img, svg {
   color: #ffffff;
   background: linear-gradient(to right, #31d35c, #2bb7da); }
 
+@media (min-width: 1114px) {
+  .header_container {
+    grid-template-columns: 33% 33% 33%; }
+    .header_container .show_menu,
+    .header_container .hide_menu {
+      display: none; }
+    .header_container .header_menu {
+      display: block;
+      width: 100%;
+      margin: unset;
+      transform: none;
+      -webkit-transform: none;
+      -moz-transform: none;
+      -ms-transform: none;
+      -o-transform: none;
+      background: unset;
+      grid-column: 2; }
+      .header_container .header_menu a {
+        font-size: 19px; }
+    .header_container .page_lists.header_lists.menu_lists {
+      display: flex;
+      justify-content: space-between;
+      padding-top: 6px; }
+  .page_list.header_list--menu_list:nth-of-type(1) {
+    padding-top: 0; }
+  .page_link--request {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end; }
+  .header {
+    padding-top: 24px;
+    padding-bottom: 16px; }
+    .header .request_button {
+      display: block;
+      line-height: 0.1;
+      width: 200px;
+      height: 55px;
+      margin-top: -5px; } }
+
 .banking_section {
   padding-top: 250px; }
 
@@ -117,5 +163,9 @@ img, svg {
 .section_button.request_button {
   margin-top: 32px; }
 
+@media (min-width: 1114px) {
+  .banking_section {
+    padding-top: 0; } }
+
 .page_section.about_section {
-  background: #9698a6; }
+  background: #f3f4f6; }

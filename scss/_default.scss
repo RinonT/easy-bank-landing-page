@@ -8,6 +8,7 @@ body {
 
 ul {
     padding: 0;
+    margin: 0;
     list-style: none;
 }
 
@@ -40,4 +41,10 @@ img, svg {
     max-width: 100%;
 }
 
-
+@media(min-width: 1114px) {
+    .page_container {
+        max-width: 1114px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
