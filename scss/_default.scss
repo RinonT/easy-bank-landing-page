@@ -1,6 +1,7 @@
 body {
     font-family: 'Public Sans', sans-serif;
     font-size: 18px;
+    line-height: 29px;
     padding: 0;
     margin: 0;
     background: hsl(0, 0%, 98%);
@@ -42,7 +43,9 @@ img, svg {
 }
 
 @media(min-width: 1114px) {
-    .page_container {
+    .header_container,
+    .section_container,
+    .footer_container {
         max-width: 1114px;
         margin-left: auto;
         margin-right: auto;

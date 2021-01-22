@@ -1,3 +1,81 @@
 .page_section.about_section {
     background: hsl(220, 16%, 96%);
 }
+
+.about_section {
+    padding-top: 75px;
+    
+    .section_heading {
+        font-size: 32px;
+        line-height: 33px;
+        font-weight: 300;
+    }
+
+    .article_container {
+        padding-top: 60px;
+    }
+
+    .article_heading {
+        font-size: 24px;
+        line-height: 25px;
+        font-weight: 500;
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+}
+
+.page_section:nth-of-type(2) { 
+    padding-bottom: 75px;
+}
+
+//=================================***===========
+
+.articles_section {
+    padding-top: 100px;
+
+    .section_heading {
+        margin-bottom: 32px;
+    }
+
+    .blog_section__text.text_container {
+        background: #ffffff;
+        margin-bottom: 18px;
+    }
+}
+
+@media (min-width: 1114px) {
+    .page_container.section_container {
+        text-align: unset;
+    }
+
+    .about_section {
+        padding-top: 100px;
+
+        .section_heading {
+            max-width: unset;
+            font-size: 42px;
+            font-weight: 300;
+        }
+
+        .about_section__paragraph {
+            max-width: 695px;
+            line-height: 29px;
+        }
+
+        .article_container.bank_accessibility {
+            padding-top: 75px;
+        }
+
+        .about_section__article:nth-of-type(2) {
+            display: flex;
+            column-gap: 23px;
+        }
+
+        .article_heading {
+            font-size: 26px;
+            line-height: 27px;
+            margin-top: 32px;
+            margin-bottom: 32px;
+        }
+    }
+}

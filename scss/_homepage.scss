@@ -12,7 +12,30 @@
 }
 
 @media(min-width: 1114px) {
+
+    .section_heading {
+        max-width: 400px;
+        font-size: 48px;
+        line-height: 59px;
+    }
+
     .banking_section {
         padding-top: 0;
+
+        .section_container { 
+            text-align: initial; 
+            padding-top: 200px;
+            padding-bottom: 50px;
+        }
+
+        .section_paragraph {
+            max-width: 400px;
+            line-height: 29px;
+            font-size: 18px;
+        }
+
+        .page_link--request { 
+            justify-content: initial;
+        }
     }
 }

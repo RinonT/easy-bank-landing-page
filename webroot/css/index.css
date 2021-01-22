@@ -1,6 +1,7 @@
 body {
   font-family: 'Public Sans', sans-serif;
   font-size: 18px;
+  line-height: 29px;
   padding: 0;
   margin: 0;
   background: #fafafa; }
@@ -34,7 +35,9 @@ img, svg {
   max-width: 100%; }
 
 @media (min-width: 1114px) {
-  .page_container {
+  .header_container,
+  .section_container,
+  .footer_container {
     max-width: 1114px;
     margin-left: auto;
     margin-right: auto; } }
@@ -164,11 +167,74 @@ img, svg {
   margin-top: 32px; }
 
 @media (min-width: 1114px) {
+  .section_heading {
+    max-width: 400px;
+    font-size: 48px;
+    line-height: 59px; }
   .banking_section {
-    padding-top: 0; } }
+    padding-top: 0; }
+    .banking_section .section_container {
+      text-align: initial;
+      padding-top: 200px;
+      padding-bottom: 50px; }
+    .banking_section .section_paragraph {
+      max-width: 400px;
+      line-height: 29px;
+      font-size: 18px; }
+    .banking_section .page_link--request {
+      justify-content: initial; } }
 
 .page_section.about_section {
   background: #f3f4f6; }
+
+.about_section {
+  padding-top: 75px; }
+  .about_section .section_heading {
+    font-size: 32px;
+    line-height: 33px;
+    font-weight: 300; }
+  .about_section .article_container {
+    padding-top: 60px; }
+  .about_section .article_heading {
+    font-size: 24px;
+    line-height: 25px;
+    font-weight: 500;
+    margin-top: 25px;
+    margin-bottom: 25px; }
+
+.page_section:nth-of-type(2) {
+  padding-bottom: 75px; }
+
+.articles_section {
+  padding-top: 100px; }
+  .articles_section .section_heading {
+    margin-bottom: 32px; }
+  .articles_section .blog_section__text.text_container {
+    background: #ffffff;
+    margin-bottom: 18px; }
+
+@media (min-width: 1114px) {
+  .page_container.section_container {
+    text-align: unset; }
+  .about_section {
+    padding-top: 100px; }
+    .about_section .section_heading {
+      max-width: unset;
+      font-size: 42px;
+      font-weight: 300; }
+    .about_section .about_section__paragraph {
+      max-width: 695px;
+      line-height: 29px; }
+    .about_section .article_container.bank_accessibility {
+      padding-top: 75px; }
+    .about_section .about_section__article:nth-of-type(2) {
+      display: flex;
+      column-gap: 23px; }
+    .about_section .article_heading {
+      font-size: 26px;
+      line-height: 27px;
+      margin-top: 32px;
+      margin-bottom: 32px; } }
 
 footer {
   background-color: #2d314d;
