@@ -208,7 +208,8 @@ footer {
   .footer_lists.menu_lists li:last-of-type {
     margin-bottom: 0; }
   .footer_lists.contact_lists {
-    margin-top: 100px; }
+    margin-top: 69px;
+    margin-bottom: 20px; }
   .footer_lists.menu_lists {
     display: grid;
     grid-template-columns: auto auto;
