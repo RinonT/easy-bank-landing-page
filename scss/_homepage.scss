@@ -1,18 +1,38 @@
 .banking_section {
-    padding-top: 250px; 
+    // background-image: url("../images/bg-intro-mobile.svg");
+    // background-repeat: no-repeat;
+    // background-size: cover;
+
+    .image_container {
+        position: relative;
+        z-index: -1;
+
+        img {
+            max-width: 100%;
+            transform: translateY(-29%);
+            -webkit-transform: translateY(-29%);
+            -moz-transform: translateY(-29%);
+            -ms-transform: translateY(-29%);
+            -o-transform: translateY(-29%);
+}
+    }
+
+    .banking_section__article {
+        margin-top: -70px;
+    }
+    
 }
 
 .section_heading {
-    font-size: 38px; 
+    font-size: 38px;
     font-weight: 400;
 }
 
 .section_button.request_button {
-    margin-top: 32px; 
+    margin-top: 32px;
 }
 
-@media(min-width: 1114px) {
-
+@media (min-width: 1114px) {
     .section_heading {
         max-width: 400px;
         font-size: 48px;
@@ -22,8 +42,8 @@
     .banking_section {
         padding-top: 0;
 
-        .section_container { 
-            text-align: initial; 
+        .section_container {
+            text-align: initial;
             padding-top: 200px;
             padding-bottom: 50px;
         }
@@ -34,7 +54,7 @@
             font-size: 18px;
         }
 
-        .page_link--request { 
+        .page_link--request {
             justify-content: initial;
         }
     }

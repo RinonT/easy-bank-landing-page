@@ -156,8 +156,19 @@ img, svg {
       height: 55px;
       margin-top: -5px; } }
 
-.banking_section {
-  padding-top: 250px; }
+.banking_section .image_container {
+  position: relative;
+  z-index: -1; }
+  .banking_section .image_container img {
+    max-width: 100%;
+    transform: translateY(-29%);
+    -webkit-transform: translateY(-29%);
+    -moz-transform: translateY(-29%);
+    -ms-transform: translateY(-29%);
+    -o-transform: translateY(-29%); }
+
+.banking_section .banking_section__article {
+  margin-top: -70px; }
 
 .section_heading {
   font-size: 38px;
