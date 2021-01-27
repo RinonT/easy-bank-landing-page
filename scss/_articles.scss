@@ -1,0 +1,38 @@
+.articles_section {
+    padding-top: 100px;
+
+    .section_heading {
+        margin-bottom: 32px;
+    }
+
+    .blog_section__text.text_container {
+        background: #ffffff;
+        margin-top: -8px;
+        margin-bottom: 18px;
+        padding: 32px;
+    }
+}
+
+@media (min-width: 1114px) {
+    .articles_section {
+        .section_heading {
+            margin-bottom: 48px;
+        }
+        
+        .blog_section__article {
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            column-gap: 32px;
+
+            img {
+                height: 218px;
+            }
+        }
+
+        .blog_section__text.text_container {
+            padding: 16px;
+            padding-top: 32px;
+            padding-bottom: 32px;
+        }
+    }
+}
