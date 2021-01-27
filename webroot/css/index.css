@@ -232,6 +232,10 @@ img, svg {
   padding-top: 100px; }
   .articles_section .section_heading {
     margin-bottom: 32px; }
+  .articles_section .section_subheading.blog_author {
+    font-size: small; }
+  .articles_section .section_subheading.blog_author {
+    font-size: small; }
   .articles_section .blog_section__text.text_container {
     background: #ffffff;
     margin-top: -8px;
